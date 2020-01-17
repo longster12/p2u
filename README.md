@@ -36,3 +36,5 @@ We have included a very basic order summary and order confirmation page to link 
 >*For a returning user who lands on the homepage and clicks on the Login CTA we want to change the message on the confirmation page from “Thank you for your order” to – “Thank you for ordering from Pharmacy2U”*
 >*On the order summary page if we have the users first name please update the h1 from “Order summary” to “Hi, <firstname>, below is summary of your order”*
 
+## Demoing 
+Please bring with you, or provide a publicly available link to your code, preferably ahead of the interview so it can be reviewed in good time.
