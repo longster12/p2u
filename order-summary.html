@@ -1,11 +1,49 @@
 <!DOCTYPE html>
-<html lang="en-gb" class="">
-	<head>
-		<meta charset="utf-8" />
-	</head>
-	<body style="text-align: center">
-		<h1>Order summary</h1>
-		<p>Item 1 x 28<br/>Item 2 x 32</p>
-		<a href="order-confirmation.html" style="display: block; text-align: center; background: teal; color: #fff; width: 200px; height: 40px; line-height: 40px; margin: 0 auto;">Continue</a>
-	</body>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Order Summary - Pharmacy2U</title>
+    <script src="js/p2ucookie.js"></script>
+    <link rel='stylesheet' href='css/p2ustyle.css' type='text/css' media='all'/>
+    <script type="text/javascript">
+
+
+    </script>
+</head>
+<body>
+
+<div class="p2u-header">
+    <div class="p2u-header__logocontainer">
+        <img src="images/pharmmacy2u_logo.png">
+    </div>
+</div>
+<div class="p2u-main p2uSummary">
+    <div class="p2u-main__content">
+        <div class="p2u-main-content__msg">
+            <h1 id="summary">Hi, <span id="cookieSpan"></span>, below is summary of your order</h1>
+           </div>
+        <div class="p2u-main-content__ctawrap">
+            <div class="p2u-btn p2u-main-content-ctawrap__nhs"><img src="images/nhs-logo.png"></div>
+
+        </div>
+    </div>
+
+</div>
+<div class="p2u-textContent">
+    <div class="p2u-textContent__left">
+
+        <p>Item 1 x 28<br/>Item 2 x 32</p>
+    </div>
+    <div class="p2u-textContent__right">
+
+
+    </div>
+
+
+</div>
+<script>
+    p2uFirstCookieSumm();
+</script>
+</body>
 </html>
