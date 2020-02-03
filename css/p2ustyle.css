@@ -1,0 +1,262 @@
+body {
+    margin: 0px;
+    font-family: "Helvetica Neue";
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 200;
+}
+
+h1, p {
+
+    font-weight: 200;
+    line-height: 1.2em;
+    margin: 0px;
+
+}
+
+h2 {
+    color: #004e70;
+
+}
+
+.p2u-btn {
+    padding: 17px 0px 17px;
+    margin: 20px 0px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-weight: 400;
+    color: white;
+    transition: 0.3s;
+    opacity: 0.7;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background: #00c4a3;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.p2u-main__content {
+    padding: 15px;
+}
+
+a.p2u-main-content-ctawrap__login {
+    background: #00c4a3;
+
+}
+
+a.p2u-main-content-ctawrap__register {
+    border: 1px solid white;
+    padding: 16px 0 16px;
+
+}
+
+.p2u-btn:hover {
+    opacity: 1
+}
+
+.p2u-header {
+    width: 100%;
+    background-color: #004e70;
+    /* margin: 0px; */
+    padding: 1px;
+}
+
+.p2u-header__logocontainer {
+    width: 80%;
+    margin: 25px 15px 15px 15px;
+}
+
+.p2u-header__logocontainer img {
+    width: 65%;
+}
+
+.p2u-main {
+    background: linear-gradient(to bottom, rgba(245, 246, 252, 0.01), rgba(4, 3, 4, 0.95)), url(../images/pharmmacy2u_welcome_bg.jpg) center no-repeat;
+    /* -webkit-background-size: cover; */
+    background-image: center no-repeat;
+    background-size: cover;
+    padding-bottom: 50px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.p2u-textContent__right img {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.p2u-main-content__msg {
+    background-color: #004e70;
+    display: block;
+    padding: 15px;
+    margin-top: 28px;
+}
+
+.p2u-btn.p2u-main-content-ctawrap__nhs {
+    text-align: right;
+}
+
+.p2u-textContent {
+    /* width: 80%; */
+    margin: 15px !important;
+    display: block;
+    margin: auto;
+    color: #000;
+}
+
+.p2u-textContent h2 {
+
+    color: #005b8f;
+}
+
+.p2u-textContent p {
+    color: #000;
+    font-size: .7em;
+    line-height: 1.5em;
+}
+
+.p2u-returning {
+    background: linear-gradient(to bottom, rgba(245, 246, 252, 0.01), rgba(4, 3, 4, 0.95)), url(../images/pharmmacy2u_bg.jpg) center no-repeat !important;
+    /* -webkit-background-size: cover; */
+    background-image: center no-repeat;
+    background-size: cover;
+    padding-bottom: 50px;
+    position: relative;
+    margin-bottom: 30px;
+
+}
+
+.p2u-main.p2u-summary {
+    padding-bottom: 0px !important;
+}
+
+.p2u-summary .p2u-main__content {
+    padding: 15px 15px 0 !important;
+}
+
+.p2uSummary .p2u-main-content__msg {
+    background-color: #89acbc;
+    display: block;
+    padding: 15px;
+    margin-top: -8px;
+}
+
+.p2uSummary {
+
+    background: #004e7078 !important;
+    padding-bottom: 0px;
+
+}
+
+@media (min-width: 601px) {
+    .p2uSummary .p2u-main__content {
+        margin-left: 11%;
+    }
+
+    .p2u-main__content {
+        width: 50%;
+        margin-left: 13%;
+    }
+
+    a.p2u-main-content-ctawrap__login, a.p2u-main-content-ctawrap__register {
+        width: 48%;
+        display: inline-block;
+
+    }
+
+    .p2u-header__logocontainer {
+        width: 28%;
+        margin: 25px 15px 15px 15px;
+        margin-left: 14%;
+    }
+
+    .p2u-btn.p2u-main-content-ctawrap__nhs img {
+        width: 188px;
+    }
+
+    .p2u-textContent {
+        width: 71%;
+        margin: auto !important;
+        display: block;
+        margin: auto;
+        color: #000;
+    }
+
+    .p2u-btn {
+        margin: 0px;
+    }
+}
+
+@media (min-width: 901px) {
+    .p2u-main__content {
+        width: 50%;
+        margin-left: 13%;
+    }
+
+    .p2uSummary .p2u-main__content {
+        margin-left: 11%;
+    }
+
+    a.p2u-main-content-ctawrap__login, a.p2u-main-content-ctawrap__register {
+        width: 49%;
+        display: inline-block;
+        margin-top: 55px;
+    }
+
+    .p2u-header__logocontainer {
+        width: 28%;
+        margin: 25px 15px 15px 15px;
+        margin-left: 14%;
+    }
+
+    .p2u-btn.p2u-main-content-ctawrap__nhs {
+        text-align: right;
+        position: absolute;
+        right: 13%;
+        bottom: 30px;
+    }
+
+    #wrapper .p2u-main-content-ctawrap__nhs {
+        text-align: right;
+        position: absolute;
+        right: 13%;
+        bottom: 10px;
+    }
+
+    #wrapper .p2u-main-content-ctawrap__nhs {
+        font-weight: 600;
+    }
+
+    .p2u-btn.p2u-main-content-ctawrap__nhs img {
+        width: 188px;
+    }
+
+    .p2u-textContent {
+        width: 71%;
+        margin: auto !important;
+        display: block;
+        margin: auto;
+        color: #000;
+    }
+
+    .p2u-textContent__left {
+        width: 65%;
+        float: left;
+        margin-right: 25px;
+    }
+
+    .p2u-textContent__right {
+        width: 31%;
+        text-align: center;
+        display: block;
+        float: left;
+
+    }
+
+}

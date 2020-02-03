@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Inloggen</title>
+    <meta charset="iso-8859-1">
+    <script src="js/cookie.js"></script>
+    <link rel='stylesheet' href='css/p2ustyle.css' type='text/css' media='all'/>
+    <script language="javascript">
+        document.cookie = "login=true";
+    </script>
+</head>
+<body>
+<div id="wrapper">
+
+    <div class="p2u-header">
+        <div class="p2u-header__logocontainer">
+            <img src="images/pharmmacy2u_logo.png">
+        </div>
+    </div>
+    <div class="p2u-main p2uSummary">
+        <div class="p2u-main__content">
+            <div class="p2u-main-content__msg">
+                <h1 id="login">Hi, please login</h1>
+            </div>
+            <div class="p2u-main-content__ctawrap">
+                <div class="p2u-btn p2u-main-content-ctawrap__nhs"><img src="images/nhs-logo.png"></div>
+
+            </div>
+        </div>
+
+        <div class="p2u-textContent">
+            <div class="p2u-textContent__left">
+            <form action="order-summary.html" class="uitlijnen" id="form" onsubmit="setCookie();" method="post">
+                <br>
+                Username:
+                <input type="text" name="username" id="username" placeholder="Type your username" required>
+                <br>
+                <br>
+                Password:
+                <input type="password" name="password" placeholder="Type your password" required>
+                <br>
+                <br>
+                <input type="submit" value="Login" class="button">
+            </form>
+            </div>
+            <div class="p2u-textContent__right">
+
+
+            </div>
+
+
+        </div>
+
+    </div>
+</body>
+</html>
