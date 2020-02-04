@@ -41,6 +41,7 @@ input[type=button], input[type=submit], input[type=reset] {
     cursor: pointer;
     width:100%;
     font-size: .7em;
+    margin-bottom: 40px;
 
 }
 
@@ -111,6 +112,7 @@ a.p2u-main-content-ctawrap__register {
     margin: auto;
     color: #000;
 }
+
 
 .p2u-textContent h2 {
 
@@ -192,7 +194,7 @@ label {
 @media (min-width: 601px) {
     .p2u-textContent p {
         color: #000;
-        font-size: .7em;
+        font-size: .9em;
         line-height: 1.5em;
     }
     form#form {
@@ -201,11 +203,11 @@ label {
         margin-bottom: 5px !important;
     }
     .p2uSummary .p2u-main__content {
-        margin-left: 11%;
+        margin-left: 4%;
     }
 
     .p2u-main__content {
-        width: 50%;
+
         margin-left: 13%;
     }
 
@@ -226,7 +228,7 @@ label {
     }
 
     .p2u-textContent {
-        width: 71%;
+        width: 85%;
         margin: auto !important;
         display: block;
         margin: auto;
@@ -244,7 +246,7 @@ label {
         margin-left: 13%;
     }
     form#form {
-        font-size: 1.5em;
+        font-size: 1.2em;
         color: dimgrey;
         margin-bottom: 5px !important;
     }
