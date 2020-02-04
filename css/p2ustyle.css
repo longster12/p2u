@@ -39,6 +39,9 @@ input[type=button], input[type=submit], input[type=reset] {
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
+    width:100%;
+    font-size: .7em;
+
 }
 
 .p2u-main__content {
@@ -103,8 +106,7 @@ a.p2u-main-content-ctawrap__register {
 }
 
 .p2u-textContent {
-    /* width: 80%; */
-    margin: 15px !important;
+    margin: 0px 15px 15px !important;
     display: block;
     margin: auto;
     color: #000;
@@ -117,7 +119,7 @@ a.p2u-main-content-ctawrap__register {
 
 .p2u-textContent p {
     color: #000;
-    font-size: .7em;
+    font-size: 1.2em;
     line-height: 1.5em;
 }
 
@@ -156,6 +158,8 @@ a.p2u-main-content-ctawrap__register {
 
 form#form {
     font-size: 1.5em;
+    color: white;
+    margin-bottom: 5px !important;
 }
 /* Style inputs, select elements and textareas */
 input[type=text],input[type=password], select, textarea{
@@ -176,15 +180,7 @@ label {
 }
 
 /* Style the submit button */
-input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    float: right;
-}
+
 
 /* Style the container */
 .container {
@@ -194,6 +190,16 @@ input[type=submit] {
 }
 
 @media (min-width: 601px) {
+    .p2u-textContent p {
+        color: #000;
+        font-size: .7em;
+        line-height: 1.5em;
+    }
+    form#form {
+        font-size: 1.5em;
+        color: dimgrey;
+        margin-bottom: 5px !important;
+    }
     .p2uSummary .p2u-main__content {
         margin-left: 11%;
     }
@@ -236,6 +242,11 @@ input[type=submit] {
     .p2u-main__content {
         width: 50%;
         margin-left: 13%;
+    }
+    form#form {
+        font-size: 1.5em;
+        color: dimgrey;
+        margin-bottom: 5px !important;
     }
 
     .p2uSummary .p2u-main__content {
