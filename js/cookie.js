@@ -68,7 +68,7 @@ function p2uFirstCookie() {
         document.cookie = "FirstTimeVisitCookie=here; expires=" + expire;
         document.getElementById("h1").innerHTML = "Welcome to Pharmacy2U <first time>!";	// New visitor
     } else {
-        document.getElementById("h1").innerHTML = " Hi " + user +  " we’re now  connected <br> to your GP";
+        document.getElementById("h1").innerHTML = " Hi " + user +  " we're now  connected <br> to your GP";
         var bgImageChange = document.querySelector(".p2u-main");// Returning visitor
         bgImageChange.classList.add("p2u-returning");
     }
